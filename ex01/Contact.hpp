@@ -21,7 +21,6 @@
 
 class Contact
 {
-
 public:
     Contact(void);
     ~Contact(void);
@@ -37,15 +36,12 @@ public:
 	std::string	get_nickname(void);
 	std::string	get_phone_number(void);
 	std::string	get_darkest_secret(void);
-
 private:
-
 	std::string	first_name;
 	std::string	last_name;
 	std::string	nickname;
 	std::string	phone_number;
 	std::string	darkest_secret;	
-
 };
 
 Contact	add_contact(void);
